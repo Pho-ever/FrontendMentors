@@ -15,6 +15,17 @@ The challenge was to build out this feature illustration using HTML & CSS and ge
 
 The only assets provided in this challenge were the image of the person in the app UI and the 3 images of the dog. 
 
+
+## The Process
+
+**Built with ;**
+
+  -  Semantic HTML5 markup
+  -  CSS custom properties
+  -  Flexbox
+  -  Web-first workflow
+  -  CSS Grid
+
 ## The Difficulties i faced 
 
 I made use of CSS Grid while developing the parent div, I made a few mistakes and had to refactor from time to time
@@ -27,12 +38,10 @@ I probably would have to refactor the code later on
 
 
 
-
-
-
 ## Deploying the project challenge
 
-Ii will be hosting this project for free and the recommended hosts were:
+I will be hosting this project for free later on.
+The recommended hosts were:
 
 - [GitHub Pages](https://pages.github.com/)
 - [Vercel](https://vercel.com/)
