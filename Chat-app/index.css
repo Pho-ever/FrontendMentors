@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    overflow: hidden;
+}
+
+.first{
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 0px 0px 400px 370px;
+    margin-left: -60px;
+    height: 550px;
+}
+.seconds{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+
+}
+
+.writeup{
+    position: relative;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0px;
+}
+
+.writeup h1 {
+    color: hsl(271, 36%, 24%);
+}
+
+.third{
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 300px 300px 0px 0px;
+    margin-right: -100px;
+    margin-top: 100px;
+    height: 85vh;
+    opacity: 0.1;
+}
+
+
+.cellphone{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 400px;
+    width: 210px;
+    border: 10px solid white;
+    border-radius: 40px;
+    margin-left: -40px;
+    margin-top: 70px;
+    padding-top: 0px;
+    box-shadow: 0px 0px 2px white, 5px 2px 9px grey;;
+    background: hsl(270, 20%, 96%);
+}
+
+.header-cup{
+    display: flex;
+    position: absolute;
+    grid-template-columns: 1fr;
+    height: 25px;
+    width: 110px;
+    margin: -8px 48px 0px 48px;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    background: white;
+}
+
+.head {
+    /* border: 1px solid red; */
+    height: 30px;
+    border-radius: 30px 30px  5px 5px ;
+    padding: 25px 0px 10px 10px;
+    align-items: center;
+    display: flex;
+    float: left;
+    background-image: linear-gradient(to right, hsl(264, 100%, 71%), hsl(293, 100%, 63%));
+
+    
+}
+
+.head img{
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.name{
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.head h4 {
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+
+.head h5 {
+    font-size: 5px;
+}
+
+.heyy {
+    position: fixed;
+    /* border: 1px solid black; */
+    position: relative;
+    height: auto;
+    padding: 5px 5px 8px 5px;
+
+}
+
+
+.left {
+    font-size: 8px;
+    border: 1px solid rgb(230, 228, 228);
+    background: rgb(230, 228, 228);
+    max-width: 110px;
+    margin: 0px 0px 7px 0px;
+    border-radius: 8px 8px 8px 2px;
+    padding: 5px;
+    color: hsl(276, 55%, 52%);
+
+}
+.picture {
+    /* border: 1px solid black; */
+    padding-left: 70px;
+    margin-top: 10px;
+}
+
+.picture img {
+    width: 40px;
+    border-radius: 10px;
+    
+}
+
+.right {
+    font-size: 8px;
+    /* border: 1px solid blue; */
+    background: white;
+    max-width: 125px;
+    border-radius: 8px 8px 2px 8px;
+    margin: 0px 0px 8px 75px;
+    padding: 5px;
+    color: hsl(271, 15%, 43%);
+}
+
+.bill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(to right, hsl(264, 100%, 71%), hsl(293, 100%, 63%));
+}
+
+.left h1{
+    padding-left: 25px;
+    font-size: 10px;
+}
+
+.inputfield {
+    
+
+}
+
+input{
+    padding: 10px 6px 10px 6px;
+    border-radius: 20px;
+    border: none;
+    font-size: 8px;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 15px 0px 0px 0px;
+
+}
