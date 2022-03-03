@@ -38,6 +38,11 @@ I probably would have to refactor the code later on
 
 
 
+## Here is how it looks like at the moment  (Desktop view)
+
+![chatapp](https://user-images.githubusercontent.com/67446930/156599642-cb07eac5-ec39-4c70-a5f7-cbc100de482f.jpg)
+
+
 ## Deploying the project challenge
 
 I will be hosting this project for free later on.
