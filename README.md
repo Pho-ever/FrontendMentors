@@ -5,6 +5,6 @@ This repo contains all of my project challenge from [Frontend Mentor](https://ww
 
 To view or inspect, select the correct branch for each project
 
-##The First project being **A chat App**
+## The First project being **A chat App**
 
 
