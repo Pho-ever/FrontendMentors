@@ -68,10 +68,17 @@ body {
     align-items: center;
     background-color: hsl(214, 13%, 75%);
     border-radius: 5px;
-    width: 30px;
+    width: 40px;
     color: hsl(238, 37%, 48%);
     height: 80px;
     margin: auto 0;
+}
+
+.likes div {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* padding: 0 0 0 5px; */
 }
 
 .likes i {
