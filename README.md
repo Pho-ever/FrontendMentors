@@ -30,6 +30,6 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 
 ### Screenshot 
 **Screenshots of the challenges will be added soon**
-To view or inspect, select the correct branch for each project
+- To view or inspect, select the correct branch for each project
 
 
