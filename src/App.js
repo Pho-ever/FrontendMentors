@@ -1,6 +1,7 @@
 
 import Navbar from './Navbar';
 import Home from './Home';
+import Comment from './Comment';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* completed the Navbar */}
       <div className="content">
         <Home />
+        <Comment />
         {/* The content of the webpage */}
       </div>
     </div>

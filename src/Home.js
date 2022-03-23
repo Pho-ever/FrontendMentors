@@ -1,17 +1,10 @@
 import Files from './data.json'
-// import { useState } from 'react'
-
-
-
-
 
 
 const Home = () => {
-
-
     return (
         <>{
-            Files.comments.map((file = file.id === 1) => {
+            Files.comments.filter((file, index) => index < 1).map(file => {
                 return (
                     <div className="home">
                         <div className="box">
@@ -39,7 +32,6 @@ const Home = () => {
         </>
     )
 }
-
 export default Home;
 
 
