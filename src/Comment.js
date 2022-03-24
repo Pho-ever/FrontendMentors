@@ -1,24 +1,48 @@
 import Files from './data.json'
 
 
-
 const Comment = () => {
     return (
         <>
             {
-                Files.currentUser.map(file => {
+                // Files.comments.map(file => {
+                // Files.comments.map((file, index) => index > 1).map(file => {
+                Files.comments.filter((file) => file.id === 2).map(file => {
                     return (
+                        <> {
+                            file.replies.map(a => {
+                                return (
+                                    < div className='comment-section'>
+                                        <div className='second'>
+                                            <div className='box2'>
+                                                <div className="likes">
+                                                    <i >+</i>
+                                                    <h2 className="num">{a.score}</h2>
+                                                    <i>-</i>
+                                                </div>
+                                                <div className='text'>
+                                                    <div className="info">
+                                                        <img src={a.user.image.png} alt="hey" className='img' />
+                                                        <div className="name">{a.user.username}</div>
+                                                        <div className="duration">{a.createdAt}</div>
+                                                        <div className="reply">Reply</div>
+                                                    </div>
+                                                    <div className="comment"> {a.content}</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
 
-                        <div className='comment-section'>
-                            <img src={require('./images/avatars/image-juliusomo.webp')} alt="" />
-                            <input type="text" placeholder={file.username} />
-                            <button className='response'>reply</button>
-                        </div>
+
+                        </>
                     )
                 })
             }
         </>
     );
 }
-
 export default Comment;
+

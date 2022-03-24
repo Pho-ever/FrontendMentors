@@ -4,7 +4,8 @@ import Files from './data.json'
 const Home = () => {
     return (
         <>{
-            Files.comments.filter((file, index) => index < 1).map(file => {
+            Files.comments.map(file => {
+                // Files.comments.filter((file, index) => index < 1).map(file => {
                 return (
                     <div className="home">
                         <div className="box">
@@ -16,7 +17,7 @@ const Home = () => {
                                 </div>
                                 <div className="text">
                                     <div className="info">
-                                        <div className="img">{ }</div>
+                                        <img src={file.user.image.png} alt="hey" className='img' />
                                         <div className="name">{file.user.username}</div>
                                         <div className="duration">{file.createdAt}</div>
                                         <div className="reply">Reply</div>
