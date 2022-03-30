@@ -17,7 +17,7 @@ const Home = () => {
                                 </div>
                                 <div className="text">
                                     <div className="info">
-                                        <img src={file.user.image.png} alt="hey" className='img' />
+                                        {/* <img src={file.user.image.png} alt="hey" className='img' /> */}
                                         <div className="name">{file.user.username}</div>
                                         <div className="duration">{file.createdAt}</div>
                                         <div className="reply">Reply</div>
