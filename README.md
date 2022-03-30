@@ -38,7 +38,8 @@ These are the challenges expected of me to have implemented while building...
 
 - My progress: (Mobile design)
 
-![Annotation 2022-03-30 110527](https://user-images.githubusercontent.com/67446930/160806800-618a29a8-ef6f-48b0-bbd9-e3e84d1de956.jpg)
+![Annotation 2022-03-30 112208](https://user-images.githubusercontent.com/67446930/160810215-7934d6b4-5428-443c-a1bb-f0a1bdef4222.jpg)
+
 
 
 ### Links 
