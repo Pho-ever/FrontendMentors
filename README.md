@@ -44,7 +44,7 @@ These are the challenges expected of me to have implemented while building...
 
 ### Links 
 
-- Solution URL: [ The solition URL will be added shortly ](https://your-solution-url.com)
+- Solution URL: [ The solution URL will be added shortly ](https://your-solution-url.com)
 
 ## My Process 
 
@@ -58,5 +58,5 @@ These are the challenges expected of me to have implemented while building...
 - [React](https://reactjs.org/) - JS library
 
 ### What i learned
-  - I leanrt how to map through an Array of Json
+  - I learnt how to map through an Array of Json
 
