@@ -1,7 +1,21 @@
+import { useState } from 'react';
 import Files from './data.json'
 
 
+
+
 const Comment = () => {
+
+    const [num, setNum] = useState()
+
+    const incNum = () => {
+        setNum(num + 1);
+    };
+
+    const decNum = () => {
+        setNum(num - 1);
+    };
+
     return (
         <>
             {
@@ -16,13 +30,13 @@ const Comment = () => {
                                         <div className='second'>
                                             <div className='box2'>
                                                 <div className="likes">
-                                                    <i >+</i>
+                                                    <i onClick={incNum} >+</i>
                                                     <h2 className="num">{a.score}</h2>
-                                                    <i>-</i>
+                                                    <i onClick={decNum}>-</i>
                                                 </div>
                                                 <div className='text'>
                                                     <div className="info">
-                                                        <img src={a.user.image.png} alt="hey" className='img' />
+                                                        {/* <img src={a.user.image.png} alt="hey" className='img' width="100%" /> */}
                                                         <div className="name">{a.user.username}</div>
                                                         <div className="duration">{a.createdAt}</div>
                                                         <div className="reply">Reply</div>
@@ -44,5 +58,7 @@ const Comment = () => {
         </>
     );
 }
+
+
 export default Comment;
 
