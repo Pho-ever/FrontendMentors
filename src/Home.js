@@ -1,7 +1,36 @@
 import Files from './data.json'
+import ReplyIcon from '@mui/icons-material/Reply';
+// import Reply from './Reply';
+
+
 
 
 const Home = () => {
+    const Reply = () => {
+
+        console.log('hey bro')
+        // return (
+        //     <> {
+        //         Files.currentUser.map(file => {
+        //             return (
+        //                 <div className='home'>
+        //                     <div className='box'>
+        //                         <div className='box3'>
+        //                             {/* <img src={require(file.image.png).default} alt="" /> */}
+        //                             <img src={file.image.webp} alt="" width="60%" />
+        //                             <input type="text" placeholder={file.username} />
+        //                             <button className="reply">Reply</button>
+        //                         </div>
+        //                     </div>
+        //                 </div>
+        //             )
+        //         })
+        //     }
+        //     </>
+        // );
+    }
+
+
     return (
         <>{
             Files.comments.map(file => {
@@ -20,7 +49,10 @@ const Home = () => {
                                         {/* <img src={file.user.image.png} alt="hey" className='img' /> */}
                                         <div className="name">{file.user.username}</div>
                                         <div className="duration">{file.createdAt}</div>
-                                        <div className="reply">Reply</div>
+
+                                        <button className="reply" onClick={() => Reply()}>
+                                            < ReplyIcon className='reply' fontSize='small' /> Reply
+                                        </button>
                                     </div>
                                     <div className="comment"> {file.content}</div>
                                 </div>

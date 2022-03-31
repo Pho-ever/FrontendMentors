@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Files from './data.json'
-
-
+import ReplyIcon from '@mui/icons-material/Reply';
 
 
 const Comment = () => {
@@ -39,7 +38,9 @@ const Comment = () => {
                                                         {/* <img src={a.user.image.png} alt="hey" className='img' width="100%" /> */}
                                                         <div className="name">{a.user.username}</div>
                                                         <div className="duration">{a.createdAt}</div>
-                                                        <div className="reply">Reply</div>
+
+                                                        <button className="reply">
+                                                            < ReplyIcon className='reply' fontSize='small' />Reply</button>
                                                     </div>
                                                     <div className="comment"> {a.content}</div>
                                                 </div>

@@ -79,6 +79,7 @@ body {
     margin-left: 40px;
     padding-left: 40px;
     border-width: 0px 0px 0px 2px;
+    margin-bottom: 10px;
 }
 
 .first, .second{
@@ -152,9 +153,21 @@ body {
 }
 
 .info .reply{
+    padding:  0 5px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 5px;
     margin-left: auto;
-    font-size: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: hsl(238, 40%, 52%);
 }
+
+.info .reply:hover {
+    background-color: rgb(221, 220, 228);
+    cursor: pointer;
+}
+
 
 .info .img{
     width: 100%;
