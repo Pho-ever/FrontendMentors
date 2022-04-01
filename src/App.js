@@ -7,6 +7,7 @@ import Reply from './Reply';
 
 
 
+
 function App() {
   return (
     <div className='App'>
@@ -16,7 +17,6 @@ function App() {
         <Home />
         <Comment />
         <Reply />
-        {/* The content of the webpage */}
       </div>
     </div>
   );

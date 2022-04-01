@@ -1,5 +1,7 @@
 import Files from './data.json'
 
+
+
 const Reply = () => {
     return (
         <> {
@@ -9,16 +11,17 @@ const Reply = () => {
                         <div className='box'>
                             <div className='box3'>
                                 {/* <img src={require(file.image.png).default} alt="" /> */}
-                                <img src={file.image.webp} alt="" width="60%" />
-                                <input type="text" placeholder={file.username} />
-                                <button className="reply">Reply</button>
+                                {/* THE IMAGE */}
+                                <img src={file.image.webp} alt="hey hey" width="60%" />
+                                <textarea name="text" placeholder={file.username} />
+                                <button className='reply'>send</button>
+
                             </div>
                         </div>
                     </div>
                 )
             })
         }
-
         </>
     );
 }

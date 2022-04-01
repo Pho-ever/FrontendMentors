@@ -1,12 +1,11 @@
 import Files from './data.json'
 import ReplyIcon from '@mui/icons-material/Reply';
-// import Reply from './Reply';
-
+import { useState } from 'react';
 
 
 
 const Home = () => {
-    const Reply = () => {
+    const Reply = (id) => {
 
         console.log('hey bro')
         // return (
@@ -30,6 +29,16 @@ const Home = () => {
         // );
     }
 
+    const [num, setNum] = useState()
+
+    const incNum = () => {
+        setNum(num + 1);
+    };
+
+    const decNum = () => {
+        setNum(num - 1);
+    };
+
 
     return (
         <>{
@@ -40,9 +49,9 @@ const Home = () => {
                         <div className="box">
                             <div className="box2">
                                 <div className="likes">
-                                    <i >+</i>
+                                    <i onClick={incNum}>+</i>
                                     <h2 className="num">{file.score}</h2>
-                                    <i>-</i>
+                                    <i onClick={decNum}>-</i>
                                 </div>
                                 <div className="text">
                                     <div className="info">
@@ -50,8 +59,8 @@ const Home = () => {
                                         <div className="name">{file.user.username}</div>
                                         <div className="duration">{file.createdAt}</div>
 
-                                        <button className="reply" onClick={() => Reply()}>
-                                            < ReplyIcon className='reply' fontSize='small' /> Reply
+                                        <button className="reply">
+                                            < ReplyIcon className='reply' fontSize='small' />Reply
                                         </button>
                                     </div>
                                     <div className="comment"> {file.content}</div>

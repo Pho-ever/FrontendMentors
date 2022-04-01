@@ -29,7 +29,7 @@ const Comment = () => {
                                         <div className='second'>
                                             <div className='box2'>
                                                 <div className="likes">
-                                                    <i onClick={incNum} >+</i>
+                                                    <i onClick={incNum}>+</i>
                                                     <h2 className="num">{a.score}</h2>
                                                     <i onClick={decNum}>-</i>
                                                 </div>
@@ -40,7 +40,8 @@ const Comment = () => {
                                                         <div className="duration">{a.createdAt}</div>
 
                                                         <button className="reply">
-                                                            < ReplyIcon className='reply' fontSize='small' />Reply</button>
+                                                            < ReplyIcon className='reply' fontSize='small' />Reply
+                                                        </button>
                                                     </div>
                                                     <div className="comment"> {a.content}</div>
                                                 </div>
