@@ -29,7 +29,8 @@ These are the challenges expected of me to have implemented while building...
 ![desktop-design](https://user-images.githubusercontent.com/67446930/160805399-24cae742-f88c-467d-bdac-87215feb334d.jpg)
 
 - My Progress: (Desktop Design)
-![Annotation 2022-03-30 110044](https://user-images.githubusercontent.com/67446930/160806097-4731ecfb-c297-4f1c-b2ad-ac7822e8b656.jpg)
+![Annotation 2022-04-01 152926](https://user-images.githubusercontent.com/67446930/161284455-02c9b13a-eb2a-4ab4-af4f-4062fbeff3a8.jpg)
+
 
 
 - What the app should look like: (Mobile design)
@@ -37,14 +38,14 @@ These are the challenges expected of me to have implemented while building...
 ![mobile-design](https://user-images.githubusercontent.com/67446930/160806273-06c25100-bf3a-4c7c-b032-39a22478fa3c.jpg)
 
 - My progress: (Mobile design)
+![Annotation 2022-04-01 153144](https://user-images.githubusercontent.com/67446930/161284485-ab974b12-d096-48c5-bed6-c420d1e1aab3.jpg)
 
-![Annotation 2022-03-30 112208](https://user-images.githubusercontent.com/67446930/160810215-7934d6b4-5428-443c-a1bb-f0a1bdef4222.jpg)
 
 
 
 ### Links 
 
-- Solution URL: [ The solution URL will be added shortly ](https://your-solution-url.com)
+- Solution URL: [ Click here to see how it looks ](https://your-solution-url.com)
 
 ## My Process 
 
@@ -55,8 +56,12 @@ These are the challenges expected of me to have implemented while building...
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
+- [React](https://reactjs.org/) - JS Library
+- [MaterialUI](https://mui.com/) - ReactJS Library
 
 ### What i learned
-  - I learnt how to map through an Array of Json
+  - Mapping through Json Object string was a bit difficult as it was my first time but i scaled through
+  - Used [MaterialUI](https://mui.com/) for the first time without difficulty 
+  - Hosted on [Netlify](https://app.netlify.com/) for the first time with this being the first project i am ever hosting
+ 
 
