@@ -14,7 +14,7 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Difficulty](#Difficulty)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -51,3 +51,9 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
   - Mapping through Json Object string was a bit difficult as it was my first time but i scaled through
   - Used [MaterialUI](https://mui.com/) for the first time without difficulty 
   - Hosted on [Netlify](https://app.netlify.com/) for the first time with this being the first project i am ever hosting
+
+
+### Difficulty 
+- Still having difficulty mapping through the images properly 
+- Making the comment textarea active 
+- Creating a modal for the delete button 
