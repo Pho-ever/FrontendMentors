@@ -19,7 +19,7 @@ body {
     border-bottom: 1px solid #f2f2f2;
 }
 
-.navbar h1{
+.navbar h1 {
     color: hsl(212, 24%, 26%);
     font-size: 20px;
 }
@@ -39,7 +39,7 @@ body {
     color: hsl(211, 10%, 45%);
 }
 
-.content{
+.content {
     display: grid;
     max-width: 600px;
     margin: 5px auto;
@@ -53,7 +53,7 @@ body {
     font-size: 16px;
 }
 
-.box{
+.box {
     display: grid;
     grid-template-rows: auto;
     padding: 18px;
@@ -87,7 +87,8 @@ body {
     margin-bottom: 10px;
 }
 
-.first, .second{
+.first,
+.second {
     display: grid;
     grid-template-rows: auto;
     padding: 18px;
@@ -142,14 +143,15 @@ body {
     padding: 5px 5px 5px 15px;
 }
 
-.info{
+.info {
     display: flex;
     gap: 10px;
     align-items: center;
+    /* border: 1px solid blue; */
+
 }
 
 .info .name {
-    /* border: 1px solid  blue; */
     font-weight: bold;
     font-size: 10px;
 }
@@ -158,8 +160,8 @@ body {
     font-size: 10px;
 }
 
-.info .reply{
-    padding:  0 5px;
+.info .reply {
+    padding: 0 5px;
     background-color: transparent;
     border: 0;
     border-radius: 5px;
@@ -169,13 +171,18 @@ body {
     font-weight: bold;
 }
 
+.info .delete {
+    margin-left: auto;
+    font-size: 10px;
+}
+
 .info .reply:hover {
     background-color: rgb(221, 220, 228);
     cursor: pointer;
 }
 
 
-.info .img{
+.info .img {
     width: 100%;
 }
 
@@ -189,9 +196,7 @@ body {
     height: 50px;
 }
 
-.box3 textarea{
-
-}
+.box3 textarea {}
 
 .box3 button {
     height: 30px;
@@ -205,7 +210,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .box{
+    .box {
         display: grid;
         grid-template-rows: auto;
         padding: 18px;
@@ -229,11 +234,13 @@ body {
     .text {
         padding: 0;
     }
+
     .comment {
         padding: 2px;
     }
 
     .info .reply {
         grid-row: 3;
+        font-size: 8px;
     }
 }

@@ -1,57 +1,39 @@
-import Files from './data.json'
+// import Files from './data.json'
+import data from './data'
 import ReplyIcon from '@mui/icons-material/Reply';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 
 
 const Home = () => {
-    const Reply = (id) => {
 
-        console.log('hey bro')
-        // return (
-        //     <> {
-        //         Files.currentUser.map(file => {
-        //             return (
-        //                 <div className='home'>
-        //                     <div className='box'>
-        //                         <div className='box3'>
-        //                             {/* <img src={require(file.image.png).default} alt="" /> */}
-        //                             <img src={file.image.webp} alt="" width="60%" />
-        //                             <input type="text" placeholder={file.username} />
-        //                             <button className="reply">Reply</button>
-        //                         </div>
-        //                     </div>
-        //                 </div>
-        //             )
-        //         })
-        //     }
-        //     </>
-        // );
-    }
+    const incNum = (index) => {
+        const element = document.getElementsByClassName('num')[index];
+        let num = Number(element.textContent);
+        element.textContent = num + 1;
 
-    const [num, setNum] = useState()
-
-    const incNum = () => {
-        setNum(num + 1);
     };
 
-    const decNum = () => {
-        setNum(num - 1);
+    const decNum = (index) => {
+        const element = document.getElementsByClassName('num')[index];
+        let num = Number(element.textContent);
+        element.textContent = num - 1;
+
     };
 
 
     return (
         <>{
-            Files.comments.map(file => {
+            data.comments.map((file, index) => {
                 // Files.comments.filter((file, index) => index < 1).map(file => {
                 return (
                     <div className="home">
                         <div className="box">
                             <div className="box2">
                                 <div className="likes">
-                                    <i onClick={incNum}>+</i>
+                                    <i onClick={() => incNum(index)}>+</i>
                                     <h2 className="num">{file.score}</h2>
-                                    <i onClick={decNum}>-</i>
+                                    <i onClick={() => decNum(index)}>-</i>
                                 </div>
                                 <div className="text">
                                     <div className="info">
