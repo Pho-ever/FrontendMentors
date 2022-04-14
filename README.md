@@ -33,6 +33,9 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 - 
 ![Annotation 2022-04-01 152926](https://user-images.githubusercontent.com/67446930/161289905-e5be3a5d-c6a5-416d-aa1c-bc9dad03bd6f.jpg)
 
+### Link
+- Here is the link to this project 
+
 
 ## MY PROCESS 
 
@@ -50,7 +53,7 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 ### What i learned
   - Mapping through Json Object string was a bit difficult as it was my first time but i scaled through
   - Used [MaterialUI](https://mui.com/) for the first time without difficulty 
-  - Hosted on [Netlify](https://app.netlify.com/) for the first time with this being the first project i am ever hosting
+  - Hosted on [Netlify](https://app.netlify.com/) For the first time with this being the first project i am ever hosting
 
 
 ### Difficulty 
