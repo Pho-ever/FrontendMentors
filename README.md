@@ -30,8 +30,9 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 
 ### Screenshot 
 - This is a screenshot of my progress so far 
-- 
-![Annotation 2022-04-01 152926](https://user-images.githubusercontent.com/67446930/161289905-e5be3a5d-c6a5-416d-aa1c-bc9dad03bd6f.jpg)
+
+![Annotation 2022-04-15 155213](https://user-images.githubusercontent.com/67446930/163585667-52c5b202-29fc-4a88-b6a6-6cd78b363f5e.jpg)
+
 
 ### Link
 - Here is the link to this project [Comment Section App] (https://commentt-section.netlify.app/) 
@@ -53,14 +54,23 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 ### What i learned
   - Mapping through Json Object string was a bit difficult as it was my first time but i scaled through
   - Had lots of difficulty mapping through the images but i finally did it.
-  - After mapping through using the ``` .map() ``` method
+  - After mapping through from the json using the ``` .map() ``` method
 
 ```
     <div>
       <img src={data.currentUser.image.webp} alt="user-img"/>
      <div/>
  ```
- - I went ahead
+ - I went ahead to use the ``` .require() ``` method inside the ```json``` file so the images can parse
+
+  ``` "currentUser": {
+    "image": {
+      "webp": require("./images/avatars/image-juliusomo.webp")
+    },
+    "username": "juliusomo"
+  } 
+  ```
+  
   - Used [MaterialUI](https://mui.com/) for the first time without difficulty 
   - Hosted on [Netlify](https://app.netlify.com/) For the first time with this being the first project i am ever hosting
 
