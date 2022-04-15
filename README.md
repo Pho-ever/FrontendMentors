@@ -25,7 +25,7 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 ### The Challenges 
 
 - A Chat app 
-- Comment section app
+- Comment section app [ Link to the challenage ](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9)
 
 
 ### Screenshot 
