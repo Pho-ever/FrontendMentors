@@ -35,7 +35,7 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 
 
 ### Link
-- Here is the link to this project [Comment Section App] (https://commentt-section.netlify.app/) 
+- Here is the link to this project [ Comment section app ](https://commentt-section.netlify.app/) 
 
 
 ## MY PROCESS 
