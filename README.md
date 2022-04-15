@@ -25,17 +25,17 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 ### The Challenges 
 
 - A Chat app 
-- Comment section app [ Link to the challenage ](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9)
+- Comment section app - [ The Challenage ](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9)
 
 
 ### Screenshot 
 - This is a screenshot of my progress so far 
-
+- 
 ![Annotation 2022-04-15 155213](https://user-images.githubusercontent.com/67446930/163585667-52c5b202-29fc-4a88-b6a6-6cd78b363f5e.jpg)
 
 
 ### Link
-- Here is the link to this project [ Comment section app ](https://commentt-section.netlify.app/) 
+- Here is the link to this project built by me [ Comment section app ](https://commentt-section.netlify.app/) 
 
 
 ## MY PROCESS 
