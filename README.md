@@ -71,12 +71,10 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
   } 
   ```
   
-  - Used [MaterialUI](https://mui.com/) for the first time without difficulty 
+  - Learnt how to use [MaterialUI](https://mui.com/) for the first time
   - Hosted on [Netlify](https://app.netlify.com/) For the first time with this being the first project i am ever hosting
+  - Also learnt how to create an active ```Modal ``` component for the delete buttom
 
 
-### Difficulties 
- 
-  
-- Making the comment textarea active 
-- Creating a modal for the delete button 
+### Present Difficulty
+- Making the delete button active, so a comment can be deleted when clicked 
