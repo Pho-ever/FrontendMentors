@@ -100,9 +100,6 @@ body {
 }
 
 
-
-
-
 .likes {
     font-weight: bold;
     display: grid;
@@ -116,7 +113,8 @@ body {
     margin: auto 0;
 }
 
-.num {
+.num,
+.numm {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -169,21 +167,20 @@ body {
     font-size: 13px;
     color: hsl(238, 40%, 52%);
     font-weight: bold;
+    cursor: pointer;
 }
 
 .info .delete {
     margin-left: auto;
-    font-size: 10px;
-}
-
-.info .reply:hover {
-    background-color: rgb(221, 220, 228);
+    border: 0;
+    color: red;
+    font-weight: bold;
+    background: white;
     cursor: pointer;
 }
 
-
 .info .img {
-    width: 100%;
+    width: 7%;
 }
 
 .comment {
@@ -192,11 +189,14 @@ body {
 
 
 .box3 img {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 50px;
+    width: 100%;
 }
 
-.box3 textarea {}
+.box3 textarea {
+    margin: 0 0 0 5px;
+}
 
 .box3 button {
     height: 30px;
@@ -207,6 +207,51 @@ body {
     border-radius: 4px;
     color: white;
     margin-left: 5px;
+}
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 280px;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.modal div {
+    margin-right: 0;
+    color: hsl(212, 24%, 26%);
+}
+
+.modal button {
+    padding: 12px;
+    margin-right: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+
+.yes {
+    background-color: rgb(204, 25, 25);
+    border: 0;
+}
+
+.no {
+    border: 0;
+    background-color: hsl(212, 24%, 26%);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 @media screen and (max-width: 600px) {

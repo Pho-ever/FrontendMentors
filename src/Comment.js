@@ -1,19 +1,24 @@
-import { useState } from 'react';
 import data from './data'
+import Modal from './Modal';
 import ReplyIcon from '@mui/icons-material/Reply';
-
+import { useState } from "react";
 
 
 const Comment = () => {
 
-    const [num, setNum] = useState(12)
+    const [isOpen, setIsOpen] = useState(false)
 
-    const incNum = () => {
-        setNum(num + 1);
+    const incNum = (index) => {
+        const element = document.getElementsByClassName('numm')[index];
+        let numm = Number(element.textContent);
+        element.textContent = numm + 1;
     };
 
-    const decNum = () => {
-        setNum(num - 1);
+    const decNum = (index) => {
+        const element = document.getElementsByClassName('numm')[index];
+        let numm = Number(element.textContent);
+        element.textContent = numm - 1;
+
     };
 
     return (
@@ -21,27 +26,29 @@ const Comment = () => {
             {
                 // Files.comments.map(file => {
                 // Files.comments.map((file, index) => index > 1).map(file => {
-                data.comments.filter((file) => file.id === 2).map(file => {
+                // data.comments.filter((file) => file.id === 2).map((file) => {
+                data.comments.map((file) => {
                     return (
                         <> {
-                            file.replies.map(a => {
+                            file.replies.map((a, index) => {
                                 return (
                                     < div className='comment-section'>
                                         <div className='second'>
                                             <div className='box2'>
                                                 <div className="likes">
-                                                    <i onClick={incNum}>+</i>
-                                                    <h2 className="num">{num}</h2>
-                                                    <i onClick={decNum}>-</i>
+                                                    <i onClick={() => incNum(index)}>+</i>
+                                                    <h2 className="numm">{a.score}</h2>
+                                                    <i onClick={() => decNum(index)}>-</i>
                                                 </div>
                                                 <div className='text'>
                                                     <div className="info">
                                                         {/* <img src={`${a.user.image.png}`} alt="pic" className='img' width="100%" /> */}
-                                                        <img src={a.user.image.png} alt="pic" className='img' />
+                                                        <img src={a.user.image.png} alt="" className='img' />
                                                         <div className="name">{a.user.username}</div>
                                                         <div className="duration">{a.createdAt}</div>
-                                                        {/* <button className='delete' id='2' ></button> */}
                                                         <button className="reply">
+                                                            <button className='delete' onClick={() => setIsOpen(true)} >Delete</button>
+                                                            <Modal open={isOpen} onClose={() => setIsOpen(false)} />
                                                             < ReplyIcon className='reply' fontSize='small' />Reply
                                                         </button>
                                                     </div>

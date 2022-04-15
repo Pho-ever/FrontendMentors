@@ -1,26 +1,22 @@
-// import Files from './data.json'
 import data from './data'
 import ReplyIcon from '@mui/icons-material/Reply';
-// import { useState } from 'react';
 
 
 
 const Home = () => {
 
+
     const incNum = (index) => {
         const element = document.getElementsByClassName('num')[index];
         let num = Number(element.textContent);
         element.textContent = num + 1;
-
     };
 
     const decNum = (index) => {
         const element = document.getElementsByClassName('num')[index];
         let num = Number(element.textContent);
         element.textContent = num - 1;
-
     };
-
 
     return (
         <>{
@@ -37,7 +33,7 @@ const Home = () => {
                                 </div>
                                 <div className="text">
                                     <div className="info">
-                                        {/* <img src={file.user.image.png} alt="hey" className='img' /> */}
+                                        <img src={file.user.image.png} alt="hey" className='img' />
                                         <div className="name">{file.user.username}</div>
                                         <div className="duration">{file.createdAt}</div>
 
@@ -57,7 +53,5 @@ const Home = () => {
     )
 }
 export default Home;
-
-
 
 

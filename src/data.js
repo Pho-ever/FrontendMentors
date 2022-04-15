@@ -56,8 +56,8 @@ const data = {
           "replyingTo": "ramsesmiron",
           "user": {
             "image": {
-              "png": ("./images/avatars/image-juliusomo.png"),
-              "webp": ("./images/avatars/image-juliusomo.webp")
+              "png": require("./images/avatars/image-juliusomo.png"),
+              "webp": require("./images/avatars/image-juliusomo.webp")
             },
             "username": "juliusomo"
           }
