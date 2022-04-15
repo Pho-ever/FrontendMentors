@@ -52,11 +52,21 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 
 ### What i learned
   - Mapping through Json Object string was a bit difficult as it was my first time but i scaled through
+  - Had lots of difficulty mapping through the images but i finally did it.
+  - After mapping through using the ``` .map() ``` method
+
+```
+    <div>
+      <img src={data.currentUser.image.webp} alt="user-img"/>
+     <div/>
+ ```
+ - I went ahead
   - Used [MaterialUI](https://mui.com/) for the first time without difficulty 
   - Hosted on [Netlify](https://app.netlify.com/) For the first time with this being the first project i am ever hosting
 
 
-### Difficulty 
-- Still having difficulty mapping through the images properly 
+### Difficulties 
+ 
+  
 - Making the comment textarea active 
 - Creating a modal for the delete button 
