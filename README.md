@@ -28,7 +28,8 @@ These are the challenges expected of me to have implemented while building...
 
 - My Progress: (Desktop Design)
 
-![Annotation 2022-04-01 152926](https://user-images.githubusercontent.com/67446930/161284455-02c9b13a-eb2a-4ab4-af4f-4062fbeff3a8.jpg)
+![Annotation 2022-04-15 155213](https://user-images.githubusercontent.com/67446930/163585873-756c29e8-b4f5-44ee-b34d-a5c59b109f5f.jpg)
+
 
 
 
