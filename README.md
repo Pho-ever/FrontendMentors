@@ -29,8 +29,7 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 
 
 ### Screenshot 
-- This is a screenshot of my progress so far 
-- 
+- This is a screenshot of my progress so far  
 ![Annotation 2022-04-15 155213](https://user-images.githubusercontent.com/67446930/163585667-52c5b202-29fc-4a88-b6a6-6cd78b363f5e.jpg)
 
 
