@@ -1,7 +1,7 @@
 const data = {
   "currentUser": {
     "image": {
-      "png": "./images/avatars/image-juliusomo.png",
+      "png": require("./images/avatars/image-juliusomo.png"),
       "webp": require("./images/avatars/image-juliusomo.webp")
     },
     "username": "juliusomo"
