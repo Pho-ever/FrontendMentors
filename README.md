@@ -26,6 +26,7 @@ These repo contains all the solutions to the [Frontend Mentor Challenges](https:
 
 - A Chat app 
 - Comment section app - [ The Challenage ](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9)
+- Sunnyside Landing page
 
 
 ### Screenshot 
