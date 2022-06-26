@@ -1,47 +1,40 @@
-# Interactive comment section solution - Frontend Mentor 
 
-This is a solution to the [Interactive comments section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of Contents 
+## Table of Content 
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The challenges](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Difficulty](#Difficulty)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 
-### The Challenge: 
-These are the challenges expected of me to have implemented while building...
-- Responsiveness of the page depending on the device's screen size 
-- See all hover states for all interactive elements on the page 
-- Create, read, update and delete comments and replies 
-- Upvote and downvote comments 
+## Overview 
+
+### The Challenges 
+
+- A Chat app 
+- Comment section app - [ The Challenage ](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9)
+- Sunnyside Landing page
+
 
 ### Screenshot 
-
-- My Progress: (Desktop Design)
-
-![Annotation 2022-04-15 155213](https://user-images.githubusercontent.com/67446930/163585873-756c29e8-b4f5-44ee-b34d-a5c59b109f5f.jpg)
+- This is a screenshot of my progress so far  
+![Annotation 2022-04-15 155213](https://user-images.githubusercontent.com/67446930/163585667-52c5b202-29fc-4a88-b6a6-6cd78b363f5e.jpg)
 
 
+### Link
+- Here is the link to this project built by me [ Comment section app ](https://commentt-section.netlify.app/) 
 
 
+## MY PROCESS 
 
-
-### Links 
-
-- Solution URL: [ Click here to see how it looks ](https://your-solution-url.com)
-
-## My Process 
-
-### Built with 
+### Built With 
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -51,9 +44,33 @@ These are the challenges expected of me to have implemented while building...
 - [React](https://reactjs.org/) - JS Library
 - [MaterialUI](https://mui.com/) - ReactJS Library
 
+
 ### What i learned
   - Mapping through Json Object string was a bit difficult as it was my first time but i scaled through
-  - Used [MaterialUI](https://mui.com/) for the first time without difficulty 
-  - Hosted on [Netlify](https://app.netlify.com/) for the first time with this being the first project i am ever hosting
+  - Had lots of difficulty mapping through the images but i finally did it.
+  - After mapping through from the json using the ``` .map() ``` method
+
+```
+    <div>
+      <img src={data.currentUser.image.webp} alt="user-img"/>
+     <div/>
+ ```
+ - I went ahead to use the ``` .require() ``` method inside the ```json``` file so the images can parse
+
+  ``` "currentUser": {
+    "image": {
+      "webp": require("./images/avatars/image-juliusomo.webp")
+    },
+    "username": "juliusomo"
+  } 
+  ```
+  
+  - Learnt how to use [MaterialUI](https://mui.com/) for the first time
+  - Hosted on [Netlify](https://app.netlify.com/) For the first time with this being the first project i am ever hosting
+  - Also learnt how to create an active ```Modal ``` component for the delete buttom
+
+
+### Present Difficulty
+- Making the delete button active, so a comment can be deleted when clicked 
  
 
